@@ -1,0 +1,67 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <link rel="stylesheet" href="mancstyle.css">
+    <style>
+        button{
+            width:70vmin;
+            height:40vmin;
+            color:mintcream;
+            text-align:center;
+            background-color:firebrick;
+             border-width:3vmin;
+            font-size:5vmin;
+            border-style:solid;
+            font-weight:bold;
+            margin:12vmin;
+        }
+        button:hover{
+            background-color:indianred;
+        }
+        .checkerswin {
+    font-family: "Palatino Linotype";
+    font-size: 50px;
+    letter-spacing: 2px;
+    word-spacing: 2px;
+    font-weight: bold;
+    color: white;
+    text-shadow: 1px 1px 10px rgb(255, 216, 0), 1px 1px 10px rgb(255, 216, 0);
+    font-size: 100px;
+}
+
+        table { /*על מנת שלוח המשחק של הדמקה יתאים לגודל המסך*/
+    table-layout: fixed;
+    width: 65vmin;
+}
+
+td img {
+    max-width: 100%;
+}
+    </style>
+</head>
+<body>
+    <h1 style="background-color:darkred; color:thistle; text-align:center">
+        Checkers
+        <a href="index.html">
+            <img src="img/house2.png" alt="house" width="50" height="50" align="right" />
+        </a>
+    </h1>
+    <h3 style="color:mistyrose; text-align:center" id="turns"></h3>
+    <div style="text-align:center">
+        <button onclick="BuildBoard(); style.display = 'none';">
+            Click here to start the game!
+        </button>
+    </div>
+    <h2 id="Start" onclick="BuildBoard();">
+
+    </h2>
+    <script src="js/checkers.js">
+
+    </script>
+    
+
+</body>
+</html>

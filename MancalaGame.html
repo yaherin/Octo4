@@ -1,0 +1,61 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <style>
+        button{
+            width:70vmin;
+            height:40vmin;
+            color:lavender;
+            text-align:center;
+            background-color:mediumslateblue;
+            border-color:violet;
+             border-width:3vmin;
+            font-size:5vmin;
+            border-style:solid;
+            font-weight:bold;
+            margin:12vmin;
+        }
+        button:hover{
+            background-color:mediumorchid;
+        }
+    </style>
+    <meta charset="utf-8" />
+    <title></title>
+    <link rel="stylesheet" href="mancstyle.css">
+</head>
+<body>
+    <h1 style="background-color:mediumslateblue; color:lavender; text-align:center">
+        Mancala
+        <a href="index.html">
+            <img src="img/house3.png" alt="house" width="50" height="50" align="right" />
+        </a>
+    </h1>
+    <h3 id="turns" style="color:mediumpurple; text-align:center">   </h3>
+    <div style="text-align:center">
+        <button onclick="BuildBoard(); style.display = 'none'">
+            Click here to begin the game!
+        </button>
+    </div>
+    <div id="Start" class="mancstart" style="color:mediumpurple;" text-align:center" onclick="BuildBoard();">
+
+    </div>
+
+
+
+
+
+    
+        
+   
+
+
+        <p id="End" style="text-align:center">
+
+        </p>
+        <script src="js/mancalajsite.js">
+
+        </script>
+
+</body>
+</html>

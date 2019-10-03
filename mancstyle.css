@@ -1,0 +1,168 @@
+﻿.pit {
+    position: relative;  
+    flex-grow: 1;
+    background-color: rgba(255, 169, 77, 0.7);
+    text-align: center;
+    color: aliceblue;
+    margin: 5px; /* מרווח מכל הכיוונים  */
+    border: 5px; /*עובי הגבול*/
+    border-radius: 100px; /* בשביל שהגומה תהיה עיגולית*/
+    border-style: inset; /*גורם לגבול להראות כלפי פנימה*/
+    border-color: saddlebrown;
+    height: 150px;
+    width: 160px;
+}
+.seed {
+	position: absolute;
+	height: 25px;
+	width: 25px;
+    float:inherit;
+	border-radius: 100px; 
+	border-style: outset; 
+	border-color: saddlebrown;
+
+} 
+.row {
+    position: relative;
+    display: flex;
+    background-color: rgb(51, 26, 0);
+    border-color: rosybrown;
+    border-style: inset;
+    border-radius: 70px;
+   
+}
+
+.endfont{
+    color:darkorchid;
+    font-size: 35px;
+}
+
+.storep1 {
+    position: relative;
+    float: right;
+    background-color: rgb(77, 136, 179);
+    border: 5px;
+    border-radius: 100px;
+    border-style: inset;
+    border-color: saddlebrown;
+    flex-grow: 1;
+    height: 320px;
+    width: 150px;
+}
+
+
+
+.label {
+    position: relative;
+    display: inline-flex; /*מתאים את עצמו למה שיש בפנים*/
+    float: left;
+    background-color: seashell;
+    color: purple;
+    border: 2px;
+    border-radius: 100px;
+    border-style: inset;
+    height: 20px;
+    width: 20px;
+    flex-grow: 1;
+    font-weight: bold;
+}
+
+.storep2 {
+    position: relative;
+    float: left;
+    background-color: rgb(140, 92, 153);
+    border: 5px;
+    border-radius: 100px;
+    border-style: inset;
+    border-color: saddlebrown;
+    flex-grow: 1;
+    height: 320px;
+    width: 150px;
+}
+
+.board {
+    text-align: center;
+    background-color: rgb(77, 25, 25);
+    border-radius: 50px;
+    width: 100%;
+    display: inline-block;
+    height: 70%;
+  
+}
+
+
+.title {
+    background-color: sandybrown;
+    color: firebrick;
+    text-align: center;
+    border-style: dotted;
+    border-color: red;
+    padding: 30px;
+    margin-bottom: 23px;
+}
+
+.winner {
+    font-size: 150px;
+}
+
+.player1name {
+    font-size: 35px;
+    position: relative;
+    display: inline-block; /*מתאים את עצמו למה שיש בפנים*/
+    color: ghostwhite;
+    background-color: rgb(77, 136, 179);
+    border: 2px;
+    border-radius: 10px;
+    border-style: inset;
+    border-color: rosybrown;
+    font-weight: bold;
+}
+.player2name {
+    font-size: 35px;
+    position: relative;
+    display: inline-block; /*מתאים את עצמו למה שיש בפנים*/
+    color: ghostwhite;
+    background-color: rgb(140, 92, 153);
+    border: 2px;
+    border-radius: 10px;
+    border-style: inset;
+    border-color: rosybrown;
+    font-weight: bold;
+}
+
+
+/*נועד כדי שהקופות יהיו בהתאם לגומות*/
+.containerStore{ 
+    height:inherit;
+}
+
+.containerend{
+    text-align:center;
+}
+
+html, body{
+    height: 100%;
+    width: 100%;
+    padding: 0px;
+    margin: 0;
+    overflow:hidden;
+}
+
+
+.fontend {
+  
+    color: darkorchid;
+    font-size: 35px;
+    text-align: center;
+    
+}
+
+
+.mancstart {
+    text-align: center;
+    position: center;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+
